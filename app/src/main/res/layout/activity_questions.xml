@@ -30,14 +30,12 @@
         <!--android:layout-->
         <!--android:checkedButton="@+id/radioButton"-->
 
-
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/a"
             android:id="@+id/ButtonA"
-            android:checked="false"
-            />
+            android:checked="false" />
 
         <RadioButton
             android:layout_width="wrap_content"
