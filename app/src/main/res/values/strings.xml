@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="your_score">Your Score</string>
+    <string name="yugesh_verma">Yugesh Verma</string>
+    <string name="projectworldsofficial_gmail_com">projectworldsofficial@gmail.com</string>
+    <string name="gajendra_pradhan">Gajendra Pradhan</string>
+    <string name="gajenpradhan18_gmail_com">Gajenpradhan18@gmail.com</string>
+    <string name="quizapp">QuizApp</string>
+    <string name="restart">Restart</string>
+    <string name="start">Start</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="d">D</string>
+    <string name="c">C</string>
+    <string name="b">B</string>
+    <string name="a">A</string>
+    <string name="next_question">Next Question</string>
+    <string name="quit">Quit</string>
+    <string name="questions">Questions</string>
+    <string name="_0">0</string>
+    <string name="back">Back</string>
+    <string name="developers">Developers</string>
+    <string name="PDP">by PDP IT Academy</string>
+    <string name="suhrobqayumov4_gmail_com">suhrobqayumov4@gmail.com</string>
+    <string name="pdp_com">PDP.com</string>
+    <string name="DEV">SuhrobDev</string>
+    <string name="Suhrob">Done by Suhrob Kayumov</string>
+    <string name="about">About</string>
+</resources>
