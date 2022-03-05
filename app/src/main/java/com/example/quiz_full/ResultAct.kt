@@ -16,8 +16,8 @@ class ResultAct : AppCompatActivity() {
     override fun onCreate(savedInstanceState : Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
-        val actionBar = supportActionBar
-        actionBar!!.hide()
+//        val actionBar = supportActionBar
+//        actionBar!!.hide()
         tv = findViewById<View>(R.id.Correct) as TextView
         tv2 = findViewById<View>(R.id.Wrong) as TextView
         tv3 = findViewById<View>(R.id.Score) as TextView

@@ -56,8 +56,8 @@ class QuestionAct : AppCompatActivity() {
     override fun onCreate(savedInstanceState : Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_questions)
-        val actionBar = supportActionBar
-        actionBar!!.hide()
+//        val actionBar = supportActionBar
+//        actionBar!!.hide()
 //        val textView = findViewById<TextView>(R.id.DispName)
 //        val intent : Intent = intent
 //        val name = intent.getStringExtra("myname")

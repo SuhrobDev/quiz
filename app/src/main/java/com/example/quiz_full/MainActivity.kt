@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState : Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main1)
-        val actionBar = supportActionBar
-        actionBar!!.hide()
+//        val actionBar = supportActionBar
+//        actionBar!!.hide()
         val startbutton : Button = findViewById<View>(R.id.start) as Button
         val aboutbutton : Button = findViewById<View>(R.id.about) as Button
         val quitbutton : Button = findViewById<View>(R.id.quit) as Button

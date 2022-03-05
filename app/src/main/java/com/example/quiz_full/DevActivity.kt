@@ -9,8 +9,8 @@ import androidx.appcompat.widget.AppCompatButton
 class DevActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState : Bundle?) {
         super.onCreate(savedInstanceState)
-        val actionBar = supportActionBar
-        actionBar!!.hide()
+//        val actionBar = supportActionBar
+//        actionBar!!.hide()
         setContentView(R.layout.activity_developer1)
         findViewById<AppCompatButton>(R.id.backbtn).setOnClickListener {
             val intent = Intent(applicationContext , MainActivity::class.java)
