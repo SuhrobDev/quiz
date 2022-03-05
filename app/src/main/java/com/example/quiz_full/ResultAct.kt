@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import kotlin.system.exitProcess
 
 class ResultAct : AppCompatActivity() {
     var tv : TextView? = null
@@ -48,9 +49,14 @@ class ResultAct : AppCompatActivity() {
         QuestionAct.correct = 0
         QuestionAct.wrong = 0
         btnRestart!!.setOnClickListener {
-            val intent = Intent(applicationContext , MainActivity::class.java)
+            val intent = Intent(applicationContext , QuestionAct::class.java)
             startActivity(intent)
             finish()
+        }
+        findViewById<Button>(R.id.btnQuit).setOnClickListener {
+            finish()
+            onDestroy()
+            exitProcess(0)
         }
     }
 }

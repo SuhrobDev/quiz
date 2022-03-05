@@ -109,6 +109,7 @@ class QuestionAct : AppCompatActivity() {
                 marks = correct
                 val intent = Intent(applicationContext , ResultAct::class.java)
                 startActivity(intent)
+                finish()
             }
             answersList!!.clearCheck()
         })
