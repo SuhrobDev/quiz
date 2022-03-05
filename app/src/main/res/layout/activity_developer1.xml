@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:paddingTop="@dimen/activity_horizontal_margin"
     android:orientation="vertical"
-    android:background="@drawable/img"
+    android:background="@drawable/logo_mob"
     tools:context=".DevActivity">
 
     <TextView
@@ -14,7 +14,7 @@
         android:text="@string/about"
         android:gravity="center"
         android:textSize="40sp"
-        android:textColor="#FFEB3B"
+        android:textColor="#07EC10"
         android:textStyle="bold"
         android:layout_height="wrap_content"/>
 
@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:textSize="25sp"
             android:textStyle="bold|italic"
-            android:textColor="#FFEB3B"
+            android:textColor="#07FB11"
             android:layout_height="wrap_content"
 
             android:padding="30dp"

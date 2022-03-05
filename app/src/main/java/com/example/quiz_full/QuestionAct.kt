@@ -58,7 +58,6 @@ class QuestionAct : AppCompatActivity() {
         setContentView(R.layout.activity_questions)
         val actionBar = supportActionBar
         actionBar!!.hide()
-        val score = findViewById<TextView>(R.id.textView4)
 //        val textView = findViewById<TextView>(R.id.DispName)
 //        val intent : Intent = intent
 //        val name = intent.getStringExtra("myname")
@@ -98,7 +97,6 @@ class QuestionAct : AppCompatActivity() {
                 //Toast.makeText(applicationContext , "Wrong" , Toast.LENGTH_SHORT).show()
             }
             flag++
-            if (score != null) score.text = "" + correct
             if (flag < questions.size) {
                 questionView!!.text = questions[flag]
                 btnA!!.text = opt[flag * 4]
