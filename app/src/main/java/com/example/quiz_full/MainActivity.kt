@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 //        actionBar!!.hide()
         val startbutton : Button = findViewById<View>(R.id.start) as Button
         val aboutbutton : Button = findViewById<View>(R.id.about) as Button
+        val settingBtn : Button = findViewById<View>(R.id.settingsbtn) as Button
         val quitbutton : Button = findViewById<View>(R.id.quit) as Button
         //val nametext = findViewById<View>(R.id.editName) as EditText
         startbutton.setOnClickListener {
@@ -43,6 +44,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+//        settingBtn.setOnClickListener {
+//
+//            finish()
+//        }
+
         quitbutton.setOnClickListener {
             finish()
             onDestroy()
